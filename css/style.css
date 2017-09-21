@@ -264,8 +264,7 @@ a:hover {
 	color: #727272;
 }
 .nav-menu .menu-active > a {
-	color: #09c;
-	/*border-bottom: 5px solid #09c;*/
+	color: #09c;/*border-bottom: 5px solid #09c;*/
 }
 .nav-menu ul {
 	margin: 4px 0 0 15px;
@@ -513,8 +512,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Portfolio Styling
   ================================================== */
 .portfolio {
-	background:url(../img/content_bg.jpg) repeat;
-	
+	background: url(../img/content_bg.jpg) repeat;
 }
 .portfolio h2 {
 	color: #199EB8;
@@ -645,12 +643,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 	margin: 0;
 }
 .team .card-title-wrap .card-title {
-	font-size: 24px;
+	font-size: 18px;
 	color: #333;
+	word-wrap: break-word;
 }
 .team .card-title-wrap .card-text {
 	font-size: 18px;
-	color: #999;
+	color: #199eb8;
+	font-weight: 700;
 }
 /* ==================================================
   Contact Section
@@ -665,21 +665,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #contact i {
 	font-size: 32px;
-    color: #199EB8;
-    background: #fff;
-    padding: 30px;
-    border-radius: 70px;
-    width: 90px;
-    height: 90px;
-	
+	color: #199EB8;
+	background: #fff;
+	padding: 30px;
+	border-radius: 70px;
+	width: 90px;
+	height: 90px;
 }
 #contact p {
 	padding: 25px 0px;
-    line-height: 24px;
-    text-align: center;
+	line-height: 24px;
+	text-align: center;
 	color: #fff;
 }
-
 /* ==================================================
   Footer Styling
   ================================================== */
@@ -842,37 +840,32 @@ h3 {
 	padding: 3px 0px 0 16px;
 }
 .person-info h5 {
-    border-bottom: 1px solid #eeeeee;
-    color: #727272;
-    font-size: 14px;
-    margin-bottom: 12px;
-    padding-bottom: 12px;
+	border-bottom: 1px solid #eeeeee;
+	color: #727272;
+	font-size: 14px;
+	margin-bottom: 12px;
+	padding-bottom: 12px;
 }
-#logo a
-{
+#logo a {
 	text-decoration: none;
 	color: #00bcd4;
 }
-.project-item{
+.project-item {
 	background: #f9f9f9;
 	padding: 10px 40px;
 	margin: 10px 40px;
 	display: table-cell;
 }
-.project-ctr
-{
+.project-ctr {
 	display: table;
 }
-.projectlist li
-{
+.projectlist li {
 	text-align: left;
 	color: #727272;
 }
-.marginbottom50
-{
+.marginbottom50 {
 	margin-bottom: 50px!important;
 }
-#features h4 , h3
-{
+#features h4, h3 {
 	color: #fff;
 }
